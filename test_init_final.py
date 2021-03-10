@@ -2073,7 +2073,7 @@ class mainCog(commands.Cog):
 			return
 
 	################ 멍보스타임 일괄 설정 ################
-	@commands.command(name=command[40][0], aliases=command[40][1:])
+	@commands.command(name=command[40][0], aliases=command[40][1]):
 	async def mungBossInput_(self, ctx):
 		global basicSetting
 		global bossData
